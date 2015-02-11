@@ -139,6 +139,8 @@ public class ImportData {
 
     }
 
+    // The supplied YAML files have TAB characters in them, which is a violation of the YAML spec. Simple utility method
+    // to remove those characters so the files can be parsed.
     private static String fixTabsInYaml(String yamlString) {
         return yamlString.replace("\t", "    ");
     }
