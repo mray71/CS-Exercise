@@ -1,4 +1,4 @@
-This is solution to the exercise requested by *Cognitive Scale*.
+This is my solution to the exercise requested by *Cognitive Scale*.
 
 Building
 ====
