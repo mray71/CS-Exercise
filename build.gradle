@@ -7,7 +7,12 @@ version = '1.0'
 
 repositories {
     mavenCentral()
+}
 
+sourceSets {
+    main {
+        output.resourcesDir = "build/classes/main"
+    }
 }
 
 task execute(type:JavaExec) {
