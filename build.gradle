@@ -9,15 +9,9 @@ repositories {
     mavenCentral()
 }
 
-sourceSets {
-    main {
-        output.resourcesDir = "build/classes/main"
-    }
-}
-
 task execute(type:JavaExec) {
     main = 'com.mray.exercise.ImportData'
-    classpath = sourceSets.main.runtimeClasspath; sourceSets.main.resources
+    classpath = sourceSets.main.runtimeClasspath
 }
 
 dependencies {

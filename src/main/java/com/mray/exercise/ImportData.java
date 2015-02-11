@@ -17,10 +17,10 @@ import static java.nio.file.Paths.get;
  * Created by mray on 2/9/15.
  */
 public class ImportData {
-    private String patientDataFileName = "/Users/mray/Development/CS-Exercise/data/patient-data-records.csv";
-    private String physicianDataFileName = "/Users/mray/Development/CS-Exercise/data/physician-data-records.csv";
-    private String physicianDetailsFileName = "/Users/mray/Development/CS-Exercise/data/physician-details.yml";
-    private String patientDetailsFileName = "/Users/mray/Development/CS-Exercise/data/patient-details.yml";
+    private String patientDataFileName = "data/patient-data-records.csv";
+    private String physicianDataFileName = "data/physician-data-records.csv";
+    private String physicianDetailsFileName = "data/physician-details.yml";
+    private String patientDetailsFileName = "data/patient-details.yml";
     private static final Logger logger = LoggerFactory.getLogger(ImportData.class);
     private final PatientDAO patientDAO = new PatientDAO();
     private final PhysicianDAO physicianDAO = new PhysicianDAO();
@@ -48,8 +48,7 @@ public class ImportData {
                 patientDetailsFileName = properties.getProperty("patientDetailsFileName");
                 PersistenceHelper.setServerRoot(properties.getProperty("neo4j.uri"));
             } else {
-                logger.error("config.properties is not in the classpath");
-                logger.error(this.getClass().getResource("config/config.properties").toString());
+                logger.error("Could not find config/config.properties. Using default values");
             }
         } catch(IOException e) {
             logger.error("Unable to read config.properties. Using default configuration.", e);
