@@ -10,9 +10,9 @@ repositories {
 
 }
 
-﻿task execute(type:JavaExec) {
+task execute(type:JavaExec) {
     main = 'com.mray.exercise.ImportData'
-    classpath = sourceSets.main.runtimeClasspath
+    classpath = sourceSets.main.runtimeClasspath; sourceSets.main.resources
 }
 
 dependencies {
