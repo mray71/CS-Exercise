@@ -1,0 +1,207 @@
+---
+# Michael Davis
+ID: 910001
+other-appointments:
+	- rank: Associate Professor
+	  department: Systems Biology
+	  division: Cancer Medicine
+	  institution: The University of Texas MD Anderson Cancer Center
+	  locality: Houston, TX
+education:
+  - higher:
+     - degree: MD, PhD
+       year: 2001
+       institution: The University of Texas Health Science Center
+       department: Molecular Biology
+       locality: Houston, TX
+     - degree: BA
+       year: 1993
+       institution: The University of Texas at Austin
+       school: Liberal Arts
+       locality: Austin, TX
+  - postgraduate:
+     - duration: 7/2004-6/2007
+       rank: Clinical Fellowship
+       department: Medical Oncology
+       institution: The University of Texas MD Anderson Cancer Center
+       locality: Houston, TX 
+     - duration: 7/2001-6/2004
+       rank: Clinical Residency
+       department: Internal Medicine
+       institution: Massachusetts General Hospital
+       locality: Boston, MA
+board certifications:
+  - date: 11/2007
+    speciality: Medical Oncology
+  - date: 8/2004
+    speciality: American Board of Internal Medicine
+professional memberships:
+  - association: American Association for Cancer Research
+    capacity: Member
+    since: 2008
+  - association: American Society of Clinical Oncology
+    capacity: Member
+    since: 2004
+  - association: Harris County Medical Association
+    locality: Houston, TX
+    capacity: Member
+    since: 2007
+  - association: SWOG
+    locality: Portland, OR
+    capacity: Member
+    since: 2014
+publications:
+  - author:
+     - Gopal YN
+     - Rizos H
+     - Chen G
+     - Deng W
+     - Frederick DT
+     - Cooper ZA
+     - Scolyer RA
+     - Pupo G
+     - Komurov K
+     - Sehgal V
+     - Zhang J
+     - Patel L
+     - Pereira CG
+     - Broom BM
+     - Mills GB
+     - Ram P
+     - Smith PD
+     - Wargo JA
+     - Long GV
+     - Davies MA. 
+    title: Inhibition of mTORC1/2 overcomes resistance to MAPK pathway inhibitors mediated by PGC1α and oxidative phosphorylation in melanoma
+    journal: Cancer Res 74(23):7037-47, 12/1/2014. e-Pub 10/8/2014
+    link: http://www.ncbi.nlm.nih.gov/pubmed/25297634?dopt=Citation
+    PMID: 25297634
+    tags:
+     - peer-reviewed
+     - original-research
+  - author:
+     - Bucheit AD
+     - Chen G
+     - Siroy A
+     - Tetzlaff M
+     - Broaddus R
+     - Milton D
+     - Fox P
+     - Bassett R
+     - Hwu P
+     - Gershenwald JE
+     - Lazar AJ
+     - Davies MA
+    title: Complete loss of PTEN protein expression correlates with shorter time to brain metastasis and survival in stage IIIB/C melanoma patients with BRAFV600 mutations. 
+    journal: Clin Cancer Res 20(21):5527-36, 11/2014. e-Pub 8/2014
+    link: http://www.ncbi.nlm.nih.gov/pubmed/25165098?dopt=Citation
+    NIHMSID: NIHMS623960
+---
+# Stacy Mulder
+# http://faculty.mdanderson.org/Stacy_Moulder/
+ID: 910002
+other-appointments:
+	- rank: Associate Director of the Breast Center
+	  department: Breast Medical Oncology
+	  division: Cancer Medicine
+	  institution: The University of Texas MD Anderson Cancer Center
+	  locality: "Houston, TX"
+	- rank: Associate Professor
+	  department: Department of Investigational Cancer Therapeutics
+	  division: Cancer Medicine
+	  institution: The University of Texas MD Anderson Cancer Center
+	  locality: "Houston, TX"
+education:
+  - higher:
+     - degree: MS
+       year: 2002
+       institution: Vanderbilt University
+       department: Clinical Investigation
+       locality: "Nashville, TN"
+     - degree: MD
+       year: 1995
+       institution: University of Mississippi
+       department: Medicine
+       locality: "Jackson, MS"
+     - degree: BS
+       year: 1990
+       institution: Mississippi State University
+       department: Chemistry
+       locality: "Jackson, MS"
+  - postgraduate:
+     - duration: 7/1998-6/2001
+       rank: Clinical Fellowship
+       department: Hematology/Oncology
+       institution: Vanderbilt University Medical Center
+       locality: "Nashville, TN"
+     - duration: 7/1995-6/1998
+       rank: Internship and Residency
+       department: Internal Medicine
+       institution: University of Mississippi Medical Center
+       locality: "Jackson, MS"
+board certifications:
+  - date: 11/2002
+    speciality: Medical Oncology
+  - date: 8/1998
+    speciality: American Board of Internal Medicine
+professional memberships:
+  - association: American Association for Cancer Research
+    capacity: Member
+    since: 2008
+  - association: American Society of Clinical Oncology
+    capacity: Member
+    since: 2004
+  - association: Harris County Medical Association
+    locality: Houston, TX
+    capacity: Member
+    since: 2007
+  - association: SWOG
+    locality: Portland, OR
+    capacity: Member
+    since: 2014
+publications:
+  - author:
+     - Gopal YN
+     - Rizos H
+     - Chen G
+     - Deng W
+     - Frederick DT
+     - Cooper ZA
+     - Scolyer RA
+     - Pupo G
+     - Komurov K
+     - Sehgal V
+     - Zhang J
+     - Patel L
+     - Pereira CG
+     - Broom BM
+     - Mills GB
+     - Ram P
+     - Smith PD
+     - Wargo JA
+     - Long GV
+     - Davies MA. 
+    title: Inhibition of mTORC1/2 overcomes resistance to MAPK pathway inhibitors mediated by PGC1α and oxidative phosphorylation in melanoma
+    journal: Cancer Res 74(23):7037-47, 12/1/2014. e-Pub 10/8/2014
+    link: http://www.ncbi.nlm.nih.gov/pubmed/25297634?dopt=Citation
+    PMID: 25297634
+    tags:
+     - peer-reviewed
+     - original-research
+  - author:
+     - Bucheit AD
+     - Chen G
+     - Siroy A
+     - Tetzlaff M
+     - Broaddus R
+     - Milton D
+     - Fox P
+     - Bassett R
+     - Hwu P
+     - Gershenwald JE
+     - Lazar AJ
+     - Davies MA
+    title: Complete loss of PTEN protein expression correlates with shorter time to brain metastasis and survival in stage IIIB/C melanoma patients with BRAFV600 mutations. 
+    journal: Clin Cancer Res 20(21):5527-36, 11/2014. e-Pub 8/2014
+    link: http://www.ncbi.nlm.nih.gov/pubmed/25165098?dopt=Citation
+    NIHMSID: NIHMS623960
