@@ -7,10 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
+import java.io.*;
 import java.util.*;
 
 import static java.nio.file.Files.readAllBytes;
@@ -41,7 +38,7 @@ public class ImportData {
 
     public ImportData() {
         Properties properties = new Properties();
-        try (InputStream in = this.getClass().getResourceAsStream("config.properties")){
+        try (InputStream in = new FileInputStream("config/config.properties")){
             if(in != null) {
                 properties.load(in);
                 logger.info("Using configuration properties: " + properties.toString());
@@ -50,6 +47,9 @@ public class ImportData {
                 patientDataFileName = properties.getProperty("patientDataFileName");
                 patientDetailsFileName = properties.getProperty("patientDetailsFileName");
                 PersistenceHelper.setServerRoot(properties.getProperty("neo4j.uri"));
+            } else {
+                logger.error("config.properties is not in the classpath");
+                logger.error(this.getClass().getResource("config/config.properties").toString());
             }
         } catch(IOException e) {
             logger.error("Unable to read config.properties. Using default configuration.", e);
